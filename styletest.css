@@ -1,0 +1,165 @@
+html,body{background-image: linear-gradient(black,black,#202020, #404040,	#C0C0C0);
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:0;
+	
+}
+header{background-image: linear-gradient(to bottom right, #202020,#C0C0C0);
+height:50px;
+}
+header::after{
+	content:'';
+	display:table;
+	clear:both;	
+}
+
+nav{text-align:right;
+margin-right:30px;
+ letter-spacing: 2px;
+ }
+
+nav ul{
+	list-style:none;
+	
+	
+}
+nav li{
+	display:inline;
+	margin-left:70px;
+	padding-top:6px;
+		
+}
+
+nav a{color:black;
+text-decoration:none;
+font-family: 'Quicksand', sans-serif;
+font-size:30px;
+font-weight:550;
+
+}
+nav a:hover{
+	color:white;	
+}
+
+.container1{width:100%;
+	height:350px;
+	background-color:black;
+	display:flex;
+margin:0;
+
+	
+}
+
+.boxname{
+	flex:30%;
+	font-family: 'Gayathri', sans-serif;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:3px;
+	color:white;
+	 background-image: linear-gradient(black, #404040);
+	 justify-content: space-between;
+}
+.pimg{flex:50%;
+padding:0;
+margin:0;
+background-image: url("https://github.com/yishayfinkelstein/html/blob/master/images/sanfranciscoend.jpg?raw=true");	
+background-size: 100% 100%;
+background-repeat: no-repeat;
+justify-content: space-between;
+}
+
+.hr{width:80px;
+   font-weight:400;
+   margin-top:10px;
+}
+
+
+.myi{font-size:36px;
+    color:white;
+    font-weight:400;
+    margin-top:20px;
+ }
+ 
+.aboutmebox{
+	height:500px;
+	margin-top:10px;
+	margin-left:30px;
+    margin-right:30px;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-image: url("https://github.com/yishayfinkelstein/combined/blob/master/images/road2.jpg?raw=true"); 
+    display:flex;
+	justify-content: flex-end;	
+    
+	
+}
+
+.myh2{font-size:36px;
+	text-align:center;
+	margin-top:50px;
+	margin-left:50px;
+	font-family: 'Gayathri', sans-serif;
+	font-weight:250;
+	letter-spacing:3px;
+}
+.transferbox{ height:350px;
+   width:700px;
+   margin-top:80px;
+   margin-right:100px;
+    background: rgba(0, 0, 0, 0.6); 
+   color:white;
+   box-shadow: 0 0 15px 10px #FFFAF0;
+   
+  
+  }
+  .aboutext{font-size:24px;
+  color:white;
+  text-align:center;
+  font-family: 'Gayathri', sans-serif;
+  }
+
+  .transtext{color:black;
+  font-family: 'Gayathri', sans-serif;
+  font-weight:250;
+  margin-top:50px;
+	margin-left:50px;
+  
+  }
+  .resumebox{height:150px;
+	margin-top:10px;
+	margin-left:30px;
+ margin-right:30px;
+	  border: 15px double white;
+    color:	white;
+	display:flex;
+	justify-content:center ;
+	 background-image: linear-gradient(black, #404040);
+	}
+.resumelinkbox{text-decoration:none;}
+
+.resumebox :hover{
+	  -ms-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  transform: scale(2); 
+ }
+.contactbox{height:100px;
+			margin-top:10px;
+			margin-left:30px;
+			margin-right:30px;
+			display:flex;
+			justify-content:center;
+			margin-top:50px;
+			  
+			}
+
+.contactitem{font-size:50px;
+padding-left:100px;
+}
+.contactitem a{color:#202020;}
+
+.contactitem a:hover {font-size:60px;
+			transition:0.3s ease;}
+	
+	
+
+	
